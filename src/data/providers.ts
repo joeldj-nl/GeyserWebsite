@@ -73,6 +73,14 @@ export const providersData: Providers = {
             })
         },
         {
+            name: 'ConsulHosting',
+            url: 'https://consulhosting.com/minecraft-server-hosting/',
+            description: translate({
+                id: 'providers.provider.consulhosting.description',
+                message: "GeyserMC can be installed with a single click on ConsulHosting's Minecraft server hosting. Head to your server panel, find the GeyserMC option at Software, and install it automatically — no manual configuration needed. For step-by-step instructions, see [ConsulHosting's GeyserMC installation tutorial](https://consulhosting.com/help/install-geysermc/)."
+            })
+        },
+        {
             name: 'CreeperHost',
             url: 'https://www.creeperhost.net/',
             description: translate({
@@ -312,11 +320,6 @@ export const providersData: Providers = {
             name: 'Clovux',
             url: 'https://clovux.net/',
             description: descriptionTemplates.javaIp
-        },
-        {
-            name: 'Consulhosting',
-            url: 'https://consulhosting.nl/',
-            description: descriptionTemplates.default
         },
         {
             name: 'Craft-Hosting',
