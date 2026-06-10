@@ -548,6 +548,11 @@ export const providersData: Providers = {
             })
         },
         {
+            name: 'RackGenius',
+            url: 'https://rackgenius.com/',
+            description: descriptionTemplates.default
+        },
+        {
             name: 'Redline Hosting',
             url: 'https://redlinehosting.net/',
             description: descriptionTemplates.default
