@@ -214,14 +214,6 @@ export const providersData: Providers = {
             })
         },
         {
-            name: 'Snakecraft Hosting',
-            url: 'https://snakecrafthosting.com/',
-            description: translate({
-                id: 'providers.provider.snakecraft_hosting.description',
-                message: "Select 'Paper + Geyser with Floodgate' under the Jar Type at checkout to install the Geyser plugin. Players will Connect with the same IP and port as you would on Java."
-            })
-        },
-        {
             name: 'SRKHOST',
             url: 'https://www.srkhost.eu/',
             description: translate({
@@ -246,14 +238,6 @@ export const providersData: Providers = {
             })
         },
         {
-            name: 'Virtual Gladiators',
-            url: 'https://virtualgladiators.com/',
-            description: translate({
-                id: 'providers.provider.virtual_gladiators.description',
-                message: "Find the plugin in the control panel under the 'VG Recommended' category and restart your server. IP and port are the same as Java."
-            })
-        },
-        {
             name: 'WiseHosting',
             url: 'https://wisehosting.com',
             description: translate({
@@ -269,14 +253,6 @@ export const providersData: Providers = {
                 message: "Find the plugin in the control panel and restart your server. IP and port are the same as Java."
             })
         },
-        {
-            name: '365Hosts',
-            url: 'https://365hosts.com',
-            description: translate({
-                id: 'providers.provider.365hosts.description',
-                message: "Go to their [Minecraft: Crossplay](https://www.365hosts.com/gaming/crossplayminecraft) hosting section and order your server. Instructions on how to join are provided."
-            })
-        }
     ],
     support: [
         {
@@ -398,21 +374,8 @@ export const providersData: Providers = {
             description: descriptionTemplates.default
         },
         {
-            name: 'Fusion Hosting',
-            url: 'https://fusionhostingltd.co.uk',
-            description: translate({
-                id: 'providers.provider.fusion_hosting.description',
-                message: "Get Geyser as a plugin. Use the same port as your Java server for the Bedrock port in your config (either by setting it yourself, or enabling “clone-remote-port”) and connect with the same IP and port as you would on Java or create a port in the Network tab on the panel & use this for Geyser."
-            })
-        },
-        {
             name: 'GameHosting.it',
             url: 'https://www.gamehosting.it/',
-            description: descriptionTemplates.default
-        },
-        {
-            name: 'GameProHost',
-            url: 'https://gameprohost.com/',
             description: descriptionTemplates.default
         },
         {
@@ -421,14 +384,6 @@ export const providersData: Providers = {
             description: translate({
                 id: 'providers.provider.gportal.description',
                 message: "You have to adjust the port according to your query port. Scheme: Query port: xxx65. The ports from xxx66 to xxx70 are available. For example, if your query port is 12365, then Geyser can only run under the port range 12366-12370. Furthermore, you have to change the 'Bedrock' 'address' in the Geyser config to your IP address. You can find it above your query port. Don't forget to delete the # in front of `address'."
-            })
-        },
-        {
-            name: 'Heavynode',
-            url: 'https://www.heavynode.com/',
-            description: translate({
-                id: 'providers.provider.heavynode.description',
-                message: "Open a port yourself in the networking section of the control panel. Port `19132` is only available with a dedicated IP (contact support), otherwise you will need to use a randomly assigned port. To resolve further connection issues for servers located in Canada and the UK, contact their support with the info found [here](https://wiki.geysermc.org/geyser/port-forwarding/#ovh-and-soyoustart)."
             })
         },
         {
@@ -498,14 +453,6 @@ export const providersData: Providers = {
             description: descriptionTemplates.ipAndPort
         },
         {
-            name: 'MCFORFREE.DE',
-            url: 'https://mcforfree.de/',
-            description: translate({
-                id: 'providers.provider.mcforfree.de.description',
-                message: 'Create an extra port in the game panel, then change the `port` in the `bedrock` section to the newly created port. To connect on Bedrock edition, use the Java server\'s IP and the port you\'ve created. It may take a few minutes for the port to become active.'
-            })
-        },
-        {
             name: 'MCPEhost.ru',
             url: 'https://mcpehost.ru',
             description: translate({
@@ -537,14 +484,6 @@ export const providersData: Providers = {
             description: translate({
                 id: 'providers.provider.modrinth.description',
                 message: "Check [Modrinth's documentation](https://support.modrinth.com/en/articles/10986613-adding-geyser-to-your-server) for specific instructions."
-            })
-        },
-        {
-            name: 'Netbela',
-            url: 'https://netbela.nl/store/minecraft',
-            description: translate({
-                id: 'providers.provider.netbela.description',
-                message: "Install Geyser with the dedicated Plugin installer. Use the same port as your Java server in your config. Connect with the same address and port as your Java server."
             })
         },
         {
@@ -580,14 +519,6 @@ export const providersData: Providers = {
             })
         },
         {
-            name: 'OrionNodes',
-            url: 'https://orionnodes.com',
-            description: translate({
-                id: 'providers.provider.orionnodes.description',
-                message: "Open a port yourself from the network page in the game panel, use that port in the bedrock section of the Geyser config."
-            })
-        },
-        {
             name: 'PaperNodes',
             url: 'https://papernodes.com/',
             description: translate({
@@ -615,11 +546,6 @@ export const providersData: Providers = {
                 id: 'providers.provider.pubcs.description',
                 message: "Set the Bedrock port to the Java server's port and connect with that port, or upgrade to a plan that includes dedicated IP address to support a different port."
             })
-        },
-        {
-            name: 'RamShard',
-            url: 'https://ramshard.com/',
-            description: descriptionTemplates.default
         },
         {
             name: 'Redline Hosting',
@@ -677,14 +603,6 @@ export const providersData: Providers = {
             })
         },
         {
-            name: 'SyntexHosting',
-            url: 'https://syntexhosting.com/',
-            description: translate({
-                id: 'providers.provider.syntexhosting.description',
-                message: "Set the Bedrock port to the Java server's port and connect with that port, or request a (free) additional port."
-            })
-        },
-        {
             name: 'The Minecraft Hosting',
             url: 'https://theminecrafthosting.com/',
             description: translate({
@@ -698,23 +616,8 @@ export const providersData: Providers = {
             description: descriptionTemplates.default
         },
         {
-            name: 'TurboHost',
-            url: 'https://turbohost.nl/',
-            description: descriptionTemplates.default
-        },
-        {
-            name: 'UltimateSRV',
-            url: 'https://ultimatesrv.com/',
-            description: descriptionTemplates.default
-        },
-        {
             name: 'VexyHost',
             url: 'https://vexyhost.com/',
-            description: descriptionTemplates.default
-        },
-        {
-            name: 'Volcano Hosting',
-            url: 'https://www.volcanohosting.net/',
             description: descriptionTemplates.default
         },
         {
